@@ -1,0 +1,48 @@
+{
+    "name": "GeoFence",
+    "fields": [
+        {
+            "fieldName": "fenceID",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "fenceName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "fenceCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "type",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "createdBy",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createdTime",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "modifiedBy",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "modifiedTime",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200204110922",
+    "entityTableName": "geo_fence",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}
